@@ -1,0 +1,14 @@
+D:\Dedek\Android\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\bin\Debug\MushroomsUnity3DExample.dll
+D:\Dedek\Android\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\bin\Debug\MushroomsUnity3DExample.pdb
+D:\Dedek\Android\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\bin\Debug\Player.IO GameLibrary.dll
+D:\Dedek\Android\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\bin\Debug\Player.IO GameLibrary.xml
+D:\Dedek\Android\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\obj\Debug\Game Code.csprojResolveAssemblyReference.cache
+D:\Dedek\Android\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\obj\Debug\MushroomsUnity3DExample.dll
+D:\Dedek\Android\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\obj\Debug\MushroomsUnity3DExample.pdb
+D:\Android\PlayerIO SDK\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\bin\Debug\MushroomsUnity3DExample.dll
+D:\Android\PlayerIO SDK\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\bin\Debug\MushroomsUnity3DExample.pdb
+D:\Android\PlayerIO SDK\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\bin\Debug\Player.IO GameLibrary.dll
+D:\Android\PlayerIO SDK\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\bin\Debug\Player.IO GameLibrary.xml
+D:\Android\PlayerIO SDK\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\obj\Debug\MushroomsUnity3DExample.dll
+D:\Android\PlayerIO SDK\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\obj\Debug\MushroomsUnity3DExample.pdb
+D:\Android\PlayerIO SDK\PlayerIO SDK\Unity3D\Example - Multiplayer - Mushrooms\Serverside Code\Game Code\obj\Debug\Game Code.csprojResolveAssemblyReference.cache

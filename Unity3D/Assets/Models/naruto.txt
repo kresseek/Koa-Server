@@ -1,0 +1,15 @@
+Naruto:  Tribute to the greatest Manga/anime ever commited to paper.
+Author: Ben Mathis
+Website: www.poopinmymouth.com
+email: poop@poopinmymouth.com
+
+Model: 923 triangles
+Texture: 128x256 RGB
+
+Contents:
+obj
+max8 file
+max7 file
+maya7 file
+psd
+tga
