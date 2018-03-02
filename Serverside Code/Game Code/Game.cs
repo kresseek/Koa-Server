@@ -18,10 +18,13 @@ namespace MushroomsUnity3DExample {
 
 	[RoomType("UnityMushrooms")]
 	public class GameCode : Game<Player> {
+
 		private List<Card> Deck = new List<Card>();
-        private int maxPlayer = 2;
+        private int maxPlayer = 4;
         private byte activeNoUrut = 0;
         private bool isPlaying = false;
+        Timer timeOutTurn = null;
+        Timer timeHurry = null;
 
         // This method is called when an instance of your the game is created
         public override void GameStarted() {
@@ -192,6 +195,11 @@ namespace MushroomsUnity3DExample {
 		// This method is called when a player sends a message into the server code
 		public override void GotMessage(Player player, Message message) {
 			switch(message.Type) {
+                case "TimeRequest":
+                    DateTime d = DateTime.UtcNow;
+                    string dateString = d.ToString("yyyy-mm-dd");
+                    player.Send( "ServerTime", System.Text.Encoding.Default.GetBytes(dateString));
+                    break;
                 case "ReadyToPlay":
                     player.ready = true;
                     Broadcast("ReadyToPlay", new byte[] { player.noUrut });
@@ -291,8 +299,10 @@ namespace MushroomsUnity3DExample {
                         activeNoUrut = nextNoUrut;
                         foreach (Player p in Players) {
                             if (p.noUrut == nextNoUrut) {
-                                ScheduleCallback(delegate () { getCardTimeRunsOut(p); }, 5000);
-                                ScheduleCallback(delegate () { turnTimeRunsOut(p); }, 10000);
+                                timeOutTurn.Stop();
+                                timeHurry.Stop();
+                                timeHurry = ScheduleCallback(delegate () { getCardTimeRunsOut(p); }, 5000);
+                                timeOutTurn = ScheduleCallback(delegate () { turnTimeRunsOut(p); }, 10000);
                                 break;
                             }
                         }
